@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORM KONTAK </title>
+	<style>
+		label {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+	<h1> FORM KONTAK </h1>
+
+	<form action="simpan_kontak.php" method="POST">
+		<ul>
+			<li>
+				<label for="nama"> Nama: </label>
+				<input type="text" name="nama" id="nama">
+
+			<li>
+				<label for="jkel"> Jenis Kelamin: </label>
+				<input type="text" name="jkel" id="jkel">
+			</li>
+
+			<li>
+				<label for="email"> Email: </label>
+				<input type="text" name="email" id="email">
+			</li>
+
+			<li>
+				<label for="alamat"> Alamat: </label>
+				<input type="text" name="alamat" id="alamat">
+			</li>
+
+			<li>
+				<label for="kota"> Kota: </label>
+				<input type="text" name="kota" id="kota">
+			</li>
+
+			<li>
+				<label for="pesan"> Pesan: </label>
+				<input type="text" name="pesan" id="pesan">
+			</li>
+
+			<li>
+				<button type="submit" name="create"> Create Data </button>
+			</li>
+
+		</ul>
+	</form>
+
+</body>
+</html>
